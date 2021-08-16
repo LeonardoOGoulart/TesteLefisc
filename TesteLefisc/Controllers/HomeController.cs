@@ -17,7 +17,7 @@ namespace TesteLefisc.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Descrição do projeto:";
 
             return View();
         }
