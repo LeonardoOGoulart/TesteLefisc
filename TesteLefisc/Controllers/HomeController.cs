@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using TesteLefisc.Models;
+using TesteLefisc.Models.ViewModels;
 
 namespace TesteLefisc.Controllers
 {

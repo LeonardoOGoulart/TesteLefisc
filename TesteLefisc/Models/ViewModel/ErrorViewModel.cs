@@ -1,6 +1,6 @@
 using System;
 
-namespace TesteLefisc.Models
+namespace TesteLefisc.Models.ViewModels
 {
     public class ErrorViewModel
     {
