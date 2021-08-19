@@ -54,7 +54,7 @@ namespace TesteLefisc.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Cpfcnpj,Phone")] Fornecedores fornecedores)
+        public async Task<IActionResult> Create([Bind("Id,Name,Cpfcnpj,Phone,DataCadastro")] Fornecedores fornecedores)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace TesteLefisc.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Cpfcnpj,Phone")] Fornecedores fornecedores)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Cpfcnpj,Phone,DataCadastro")] Fornecedores fornecedores)
         {
             if (id != fornecedores.Id)
             {
