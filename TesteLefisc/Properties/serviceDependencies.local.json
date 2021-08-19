@@ -3,6 +3,9 @@
     "mssql1": {
       "type": "mssql.local",
       "connectionId": "ConnectionStrings:TesteLefiscContext"
+    },
+    "appInsights1": {
+      "type": "appInsights.sdk"
     }
   }
 }
